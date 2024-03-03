@@ -1,0 +1,4 @@
+host: u231355288_
+db: u231355288_uims
+user: u231355288_ownuims
+pw: IMSNov@!2023

@@ -1,0 +1,3 @@
+CREATE TABLE portal_users(Id int primary key auto_increment, email char(150) unique, password varchar(250), status ENUM('0', '1', '2'), retry int default 0, create_by char(100), create_at timestamp default CURRENT_TIMESTAMP, update_by char(100), update_at timestamp null on update CURRENT_TIMESTAMP);
+ALTER TABLE portal_users ADD COLUMN name char(150) null;
+ALTER TABLE portal_users ADD COLUMN sid char(30) null;

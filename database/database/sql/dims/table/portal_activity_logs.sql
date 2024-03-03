@@ -1,0 +1,1 @@
+CREATE TABLE portal_activity_logs (UserId int, Category char(30), Description char(250), CreateAt timestamp default CURRENT_TIMESTAMP, SID char(30), FOREIGN KEY (UserId) REFERENCES portal_users(Id));

@@ -1,0 +1,1 @@
+CREATE TABLE portal_login_history (UserId int, browser char(100), platform char(100), ip char(20), uagent char(150), sid char(30), logAt timestamp default CURRENT_TIMESTAMP, FOREIGN KEY (UserId) REFERENCES portal_users(Id));

@@ -1,0 +1,6 @@
+2024-02-25 02:36:06 - Start housekeep job - SID and GID images
+2024-02-25 02:36:06 - Move file. Source: ../assets/data/stg/G-2023112427-EMR-1.jpg Destination: ../assets/data/hkeep-2024-02-25/G-2023112427-EMR-1.jpg
+2024-02-25 02:36:06 - GID Archive success. Reference: EMR-1
+2024-02-25 02:36:06 - Move file. Source: ../assets/data/stg/S-2023112427-EMR-1.jpg Destination: ../assets/data/hkeep-2024-02-25/S-2023112427-EMR-1.jpg
+2024-02-25 02:36:07 - SID Archive success. Reference: EMR-1
+2024-02-25 02:36:07 - Zip folder created: hkeep-2024-02-25.zip
