@@ -133,7 +133,7 @@ if (APP_ENV == "Development") {
         $dbName     = "dims";
         $dbUser     = "root";
         $dbPwd      = "";
-        $baseUrl    = "http://localhost:8080/webapp/";
+        $baseUrl    = "http://localhost:8080/emp/";
     } else {
         $dbServer   = "localhost";
         $dbName     = "u231355288_uims";
