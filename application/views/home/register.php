@@ -106,36 +106,34 @@ $minDate = date("Y-m-d", $minTime);
                     <div class="col-12 col-sm-12 mt-3 mb-2">
                         <h3 class="m-0">REGISTRATION</h3>
                     </div>
-					<div id="consent_form">
-						<div class="col-12 col-sm-12 mt-2 mb-3">
-							<span class="h5">
-								<h5 class="font-weight-bold">REGISTRATION</h5>
-								This is a registration portal for Emperador's Nationwide University Cocktail Showdown exclusively for Hotel and Restaurant Management /(HRM) Students! Craft a creative video showcasing your mixology skills with Emperador Original or Emperador Light. Capture your winning shots and be part of the ultimate sip, shake, and win experience.
-								<br> <br>
-								Join now and let the cocktail showdown begin!
-								<br> <br>
-								Please read our Privacy Notice carefully and provide the requested information. When you provide another person’s information, you hereby attest that you have obtained their consent to allow us to process and/or disclose such information in accordance with our policy.
-								<br> <br>
-								<h5 class="font-weight-bold">Privacy Notice</h5>
-								The organizers (Emperador Distillers, Inc. and its service provider, RedBalloon Creatives Inc.) value the confidentiality of data you have entrusted to us.
-								<br> <br>
-								For this competition, we will collect the following personal information: name, gender, date of birth, mobile number, email address, home address, school name, name of official school mentor/representative, school address, contact number of school mentor/representative, school ID or proof of enrollment, and government-issued ID with photo & birthday.
-								<br> <br>
-								The personal information will be used to enable the organizers to run the Emperador Academy: HRM Students Cocktail Competition, as well as for internal documentation, accounting, recording and auditing purposes. The organizers may also take photos and videos of the prize redemption which they may also use for publicity and advertising purposes. You may review how Emperador Distillers, Inc. process your personal information, how long we store the same, the scope of our processing, details of our data protection officer and how you can exercise your rights as a data subject by using this link <a href="https://emperadorinc.com/privacy-policy/" target="_blank">https://emperadorinc.com/privacy-policy/</a>
-								<br> <br>
-								RedBalloon Creatives Inc, the service provider hired to run the competition, will also have access to your personal information.  In order to find out how the service provider will process the personal information shared to them, please review their privacy policy using this link <a href="<?= BASE_URL(); ?>privacy" target="_blank"><?= BASE_URL(); ?>privacy	</a>.
-							</span>
+					<div class="col-12 col-sm-12 mt-2 mb-3" id="notice_form">
+						<span class="h5">
+							<h5 class="font-weight-bold">REGISTRATION</h5>
+							This is a registration portal for Emperador's Nationwide University Cocktail Showdown exclusively for Hotel and Restaurant Management (HRM) Students! Craft a creative video showcasing your mixology skills with Emperador Original or Emperador Light. Capture your winning shots and be part of the ultimate sip, shake, and win experience.
+							<br> <br>
+							Join now and let the cocktail showdown begin!
+							<br> <br>
+							Please read our Privacy Notice carefully and provide the requested information. When you provide another person’s information, you hereby attest that you have obtained their consent to allow us to process and/or disclose such information in accordance with our policy.
+							<br> <br>
+							<h5 class="font-weight-bold">Privacy Notice</h5>
+							The organizers (Emperador Distillers, Inc. and its service provider, RedBalloon Creatives Inc.) value the confidentiality of data you have entrusted to us.
+							<br> <br>
+							For this competition, we will collect the following personal information: name, gender, date of birth, mobile number, email address, home address, school name, name of official school mentor/representative, school address, contact number of school mentor/representative, school ID or proof of enrollment, and government-issued ID with photo & birthday.
+							<br> <br>
+							The personal information will be used to enable the organizers to run the Emperador Academy: HRM Students Cocktail Competition, as well as for internal documentation, accounting, recording and auditing purposes. The organizers may also take photos and videos of the prize redemption which they may also use for publicity and advertising purposes. You may review how Emperador Distillers, Inc. process your personal information, how long we store the same, the scope of our processing, details of our data protection officer and how you can exercise your rights as a data subject by using this link <a href="https://emperadorinc.com/privacy-policy/" target="_blank">https://emperadorinc.com/privacy-policy/</a>
+							<br> <br>
+							RedBalloon Creatives Inc, the service provider hired to run the competition, will also have access to your personal information.  In order to find out how the service provider will process the personal information shared to them, please review their privacy policy using this link <a href="<?= BASE_URL(); ?>privacy" target="_blank"><?= BASE_URL(); ?>privacy	</a>.
+						</span>
+					</div>
+					<div class="col-12 col-sm-12 mt-2 mb-2" id="consent_form">
+						<h4 class="m-0">Declaration of Consent</h4>
+						<div class="custom-control custom-radio mt-3 mb-3">
+							<input type="radio" class="custom-control-input consentChoice" id="radioYes" name="consent" value="Yes">
+							<label class="custom-control-label font-weight-bold" for="radioYes">I consent</label>
 						</div>
-						<div class="col-12 col-sm-12 mt-2 mb-2">
-							<h4 class="m-0">Declaration of Consent</h4>
-							<div class="custom-control custom-radio mt-3 mb-3">
-								<input type="radio" class="custom-control-input consentChoice" id="radioYes" name="consent" value="Yes">
-								<label class="custom-control-label font-weight-bold" for="radioYes">I consent</label>
-							</div>
-							<div class="custom-control custom-radio mt-3 mb-3">
-								<input type="radio" class="custom-control-input consentChoice" id="radioNo" name="consent" value="No">
-								<label class="custom-control-label font-weight-bold" for="radioNo">I do not consent</label>
-							</div>
+						<div class="custom-control custom-radio mt-3 mb-3">
+							<input type="radio" class="custom-control-input consentChoice" id="radioNo" name="consent" value="No">
+							<label class="custom-control-label font-weight-bold" for="radioNo">I do not consent</label>
 						</div>
 					</div>
                 </div>
@@ -234,12 +232,8 @@ $minDate = date("Y-m-d", $minTime);
 							</div>
 						</div>
 						<div class="form-row">
-							<div class="custom-control custom-checkbox">
-								<input type="checkbox" class="custom-control-input" id="agree_chck" onclick="AgreeCheck()">
-								<label class="custom-control-label" for="agree_chck">I AGREE TO THE <a href="<?= BASE_URL(); ?>terms" target="_blank">TERMS & CONDITIONS</a> AND <a href="<?= BASE_URL(); ?>privacy" target="_blank">PRIVACY POLICY</a></label>
-							</div>
 							<div class="col-12 col-sm-12 mt-3 mb-3 form-group">
-								<button type="submit" class="btn btn-sm btn-danger" disabled id="btn_submit">SUBMIT REGISTRATION NOW</button>
+								<button type="submit" class="btn btn-sm btn-danger" id="btn_submit">SUBMIT REGISTRATION NOW</button>
 							</div>
 						</div>
 					</form>
@@ -332,7 +326,9 @@ $minDate = date("Y-m-d", $minTime);
 					if (radioValue == "Yes") {
 						window.scrollTo(0, 0);
 						$("#consent_form").fadeOut(1000);
+						$("#notice_form").fadeOut(1000);
 						document.getElementById('consent_form').classList.add('d-none');
+						document.getElementById('notice_form').classList.add('d-none');
 						document.getElementById('reg_form').classList.remove('d-none');
 						$("#reg_form").fadeIn(1000);
 					} else {
@@ -341,6 +337,8 @@ $minDate = date("Y-m-d", $minTime);
 						document.getElementById('reg_form').classList.add('d-none');
 						$("#consent_form").fadeIn(1000);
 						document.getElementById('consent_form').classList.remove('d-none');
+						$("#notice_form").fadeIn(1000);
+						document.getElementById('notice_form').classList.remove('d-none');
 					}
 				});
             })
