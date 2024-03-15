@@ -74,13 +74,13 @@
                             <li>
                                 Who is eligible to participate in the competition?
                                 <ul class="font-weight-light" style="list-style-type: none;">
-                                    <li>Currently enrolled students in Hotel Management/Hotel Restaurant Management in any Philippine school, university, or college are eligible to join.</li>
+                                    <li>Currently enrolled students in Hotel Restaurant Management/HRM in any Philippine school, university, or college are eligible to join.</li>
                                 </ul>
                             </li>
                             <li>
                                 Can participants from other academic disciplines join?
                                 <ul class="font-weight-light" style="list-style-type: none;">
-                                    <li>No, the competition is exclusively open to currently enrolled students in Hotel Management/Hotel Restaurant Management. Other academic disciplines are not eligible.</li>
+                                    <li>No, the competition is exclusively open to currently enrolled students in Hotel Restaurant Management/HRM Management. Other academic disciplines are not eligible.</li>
                                 </ul>
                             </li>
                             <li>
@@ -92,7 +92,7 @@
                             <li>
                                 Can participants from any location in the Philippines join?
                                 <ul class="font-weight-light" style="list-style-type: none;">
-                                    <li>Yes, students from any school, university, or college in the Philippines offering Hotel Management/Hotel Restaurant Management programs are welcome to participate.</li>
+                                    <li>Yes, students from any school, university, or college in the Philippines offering Hotel Restaurant Management/HRM programs are welcome to participate.</li>
                                 </ul>
                             </li>
                             <li>

@@ -94,7 +94,7 @@
                     <div class="col-12 col-sm-12 mt-5 mb-2 text-center"><h2 class="font-weight-bold">ABOUT US</h2></div>
                     <div class="col-12 col-sm-8 mx-auto mt-2 mb-2 text-justify">
                         <span>
-                            <strong>Emperador Inc. (EMI)</strong> is a renowned holding company, steering an integrated venture in manufacturing, bottling, and distributing premium distilled spirits across the globe. Under <strong>Emperador Distillers, Inc. (EDI), EMI</strong> has established itself as a producer of world-class spirits whose products refresh customers around the world, across its markets in over 100 countries.
+							EMPERADOR DISTILLERS, Inc., has established itself as a renowned member of a conglomerate engaging in various operations and with over 20 years of services providing excellent service across industries. We are a  leading company in the fast moving consumer products industry with top brands such as Emperador, Generoso, Carlo Rossi, The Bar, and PikNik Shoestring Potatoes.
                         </span> <br> <br>
                         <span>
                             This legacy of excellence extends to our commitment to education and creativity, exemplified by the Nationwide Univesity

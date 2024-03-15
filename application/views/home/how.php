@@ -66,7 +66,7 @@
                             Mix, Capture, Win in Emperador's Cocktail Showdown
                         </h2>
                         <span class="mt-4 mb-2">
-                            Join the competition tailored for Hotel Management/HRM students. Mix up a captivating cocktail video with Emperador Original or Emperador Light as a central ingredient, master up to 5 ingredients(for a total of 6 ingredients). Capture your winning shot and aim for mixology greatness. This is your moment - embrace the challenge and sip your way to victory!
+                            Join the competition tailored for Hotel Restaurant Management/HRM students. Mix up a captivating cocktail video with Emperador Original or Emperador Light as a central ingredient, master up to 5 ingredients(for a total of 6 ingredients). Capture your winning shot and aim for mixology greatness. This is your moment - embrace the challenge and sip your way to victory!
                         </span>
                     </div>
                 </div>
@@ -178,8 +178,8 @@
                             <li>The Organizers of the Competition reserves the right to validate the Competition Participant's eligibility status at any time, and to disqualify/block/ban him/her should there be a well-founded belief that there are irregularities or fraud in the use of the submitted entry and/or participation in the Competition.</li>
                             <li>Official awarding of the prizes to the winners, both the student and one (1) authorized school representative will be invited to the grand awarding ceremony that will be held at one of Megaworld Hotels & Resorts (final venue will announce prior to the awarding ceremony) on April 25, 2024.</li>
                             <li>The Top 10 Competition Participants will recreate and showcase their winning cocktail mixes during the grand award ceremony event.</li>
-                            <li>EDI will cover all the expenses such as hotel accommodation, food, and transportation of the student and school representative.</li>
-                            <li>The Competition winners will be announced through the official website held on 2nd week of April 2024. Visit the <span class="font-weight-bold">www.emperadoracademy.com</span> for more details.</li>
+                            <li>Emperador Distillers Inc. ("EDI") will cover all the expenses such as hotel accommodation, food, and transportation of the student and school representative.</li>
+                            <li>The Competition winners will be announced through the official website to be held on 2nd week of April 2024. Visit the <span class="font-weight-bold">www.emperadoracademy.com</span> for more details.</li>
                             <li>The winners of the Grand Finals will be notified by email, phone call, and through SMS. The instructions for claiming their prizes shall be discussed with them separately.</li>
                             <li>
                                 All Competition winners both the students and the authorized school representative shall be required to bring:
