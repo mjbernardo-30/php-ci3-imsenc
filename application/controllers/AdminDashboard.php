@@ -115,9 +115,11 @@ class AdminDashboard extends CI_Controller {
                 $sheet->getColumnDimension('O')->setWidth(20);
                 $sheet->setCellValue('P1', 'Remarks');
                 $sheet->getColumnDimension('P')->setWidth(15);
-                $sheet->getStyle("A1:P1")->getFont()->setBold(true);
-                $sheet->getStyle('A1:P1')->getAlignment()->setHorizontal('center');
-                $sheet->getStyle('A1:P1')->getBorders()->getAllBorders()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN)->setColor(new \PhpOffice\PhpSpreadsheet\Style\Color('000'));
+				$sheet->setCellValue('Q1', 'Entry Link');
+                $sheet->getColumnDimension('Q')->setWidth(20);
+                $sheet->getStyle("A1:Q1")->getFont()->setBold(true);
+                $sheet->getStyle('A1:Q1')->getAlignment()->setHorizontal('center');
+                $sheet->getStyle('A1:Q1')->getBorders()->getAllBorders()->setBorderStyle(\PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN)->setColor(new \PhpOffice\PhpSpreadsheet\Style\Color('000'));
 
                 $cell = 2;
                 foreach ($result as $key) {
@@ -137,6 +139,7 @@ class AdminDashboard extends CI_Controller {
                     $sheet->setCellValue('N'.$cell, $key["CreateAt"]);
                     $sheet->setCellValue('O'.$cell, $key["UpdateAt"]);
                     $sheet->setCellValue('P'.$cell, $key["Remarks"]);
+					$sheet->setCellValue('Q'.$cell, $key["Link"]);
                     $cell++;
                 }
 

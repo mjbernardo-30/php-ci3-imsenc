@@ -349,7 +349,8 @@ class Registration_model extends CI_Model {
 					"Status" 		=> $status,
 					"Remarks" 		=> $stageRow->rejectReason,
 					"CreateAt" 		=> $this->ConvertDateTime($stageRow->create_at),
-					"UpdateAt" 		=> $this->ConvertDateTime($stageRow->update_at)
+					"UpdateAt" 		=> $this->ConvertDateTime($stageRow->update_at),
+					"Link" 			=> $stageRow->Link
 				);
 
 				array_push($result, $arrItem);
@@ -382,7 +383,8 @@ class Registration_model extends CI_Model {
 					"Status" 		=> $status,
 					"Remarks" 		=> null,
 					"CreateAt" 		=> $this->ConvertDateTime($stageRow->create_at),
-					"UpdateAt" 		=> !empty($stageRow->update_at) ? $this->ConvertDateTime($stageRow->update_at) : null
+					"UpdateAt" 		=> !empty($stageRow->update_at) ? $this->ConvertDateTime($stageRow->update_at) : null,
+					"Link" 			=> $stageRow->Link
 				);
 
 				array_push($result, $arrItem);
