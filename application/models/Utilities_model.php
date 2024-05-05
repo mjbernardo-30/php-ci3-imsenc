@@ -135,8 +135,10 @@ class Utilities_model extends CI_Model {
                         The missing requirement/s include: <br> <br>
                         <strong>".nl2br($value["Remarks"])."</strong>
                         <br> <br>
-                        Please take a moment to double-check your submission and make the necessary updates by ".date("F d, Y", strtotime(REG_ENDDATE)).". Incomplete entries will not be considered for the competition, so it's crucial to address this promptly.
+                        Please take a moment to double-check your submission and make the necessary updates by ".date("F d, Y", strtotime(REG_ENDDATE)).". Kindly re-submit your entry here: <a href='https://emperadoracademy.com/register' target='_blank'>https://emperadoracademy.com/register</a>.
                         <br> <br>
+						Incomplete entries will not be considered for the competition, so it's crucial to address this promptly.
+						<br> <br>
                         Should you encounter any challenges or have questions regarding the submission process, feel free to reach out to our support team at <a href='mailto:emperadoracademy@redbin.com.ph'>emperadoracademy@redbin.com.ph</a>
                         <br> <br>
                         We look forward to receiving your complete submission and wish you the best of luck in the Emperador Academy Cocktail Competition.

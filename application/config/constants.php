@@ -118,7 +118,7 @@ define("APP_ACTIVE", true);
 define("APP_THEME", "dark");
 
 define("REG_STARTDATE", "2023-01-15");
-define("REG_ENDDATE", "2024-03-31");
+define("REG_ENDDATE", "2024-04-30");
 define("ELIGIBLE_AGE", 18);
 define("LOC_MACHINE", true);
 

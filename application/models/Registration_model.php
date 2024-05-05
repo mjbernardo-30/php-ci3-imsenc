@@ -132,13 +132,12 @@ class Registration_model extends CI_Model {
 		$specify 	= $this->input->post("specifyReason", true);
 		$reference 	= $this->input->post("Reference", true);
 
-		if (array_search("Others",$reason)) {
+		if (array_search("Others",$reason) || (count($reason) == 1 && $reason[0] == "Others")) {
 			$new_remarks = explode(PHP_EOL, $specify);
 			for ($i=0; $i < count($new_remarks); $i++) {
 				array_push($reason, $new_remarks[$i]);
             }
-
-			unset($reason[array_search("Others",$reason)]);
+			unset($reason[array_search("Others", $reason)]);
 		}
 		
 		$reason 	= array_values($reason);
@@ -150,7 +149,6 @@ class Registration_model extends CI_Model {
 			if ($i != $lastKey)
 				$new_reason .= "\r\n";
 		}
-
 		$model["rejectReason"] = $new_reason;
 
 		$info = $this->registerRepo->GetRegistrationInfoStgByReference($reference);

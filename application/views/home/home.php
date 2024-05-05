@@ -215,7 +215,7 @@ $minYr = date("Y", $minTime);
                                 <li>Top 10 winners will win P100,000 worth of scholarship</li>
                                 <li>Winning school will also receive of P100,000 worth of scholarship to another student of their choice.</li>
                                 <li>Submission of entries starts on <u>January 15, 2024</u></li>
-                                <li>Deadline of submission is on <u>March 31, 2024</u></li>
+                                <li>Deadline of submission is on <u>April 30, 2024</u></li>
                                 <li>Participants must create a video of their own mix using Emperador Light or Original with up to five (5) ingredients.</li>
                                 <li>Record the whole process while you share the ingredients and explain the unique story about why you chose that cocktail mix. Upload your video on Facebook as a public post with our official hashtag and register on this website. You may check out the sample video reference here.</li>
                                 <li>The participant must upload their official video entry to their own social media profile as public post (Facebook) and register through this site.</li>

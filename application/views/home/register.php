@@ -121,7 +121,7 @@ $minDate = date("Y-m-d", $minTime);
 							<br> <br>
 							The personal information will be used to enable the organizers to run the Emperador Academy: HRM Students Cocktail Competition, as well as for internal documentation, accounting, recording and auditing purposes. The organizers may also take photos and videos of the prize redemption which they may also use for publicity and advertising purposes. You may review how Emperador Distillers, Inc. process your personal information, how long we store the same, the scope of our processing, details of our data protection officer and how you can exercise your rights as a data subject by using this link <a href="https://emperadorinc.com/privacy-policy/" target="_blank">https://emperadorinc.com/privacy-policy/</a>
 							<br> <br>
-							RedBalloon Creatives Inc, the service provider hired to run the competition, will also have access to your personal information.  In order to find out how the service provider will process the personal information shared to them, please review their privacy policy using this link <a href="https://bit.ly/3viL20E" target="_blank">https://bit.ly/3viL20E</a>.
+							RedBalloon Creatives Inc, the service provider hired to run the competition, will also have access to your personal information.  In order to find out how the service provider will process the personal information shared to them, please review their privacy policy using this link <a href="https://bit.ly/4akiRxR" target="_blank">https://bit.ly/4akiRxR</a>.
 						</span>
 					</div>
 					<div class="col-12 col-sm-12 mt-2 mb-2" id="consent_form">
